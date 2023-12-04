@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(5, 5, 5);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor: default;
+}
+
+.now-playing {
+    color: azure;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 0px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+
+.my-header {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.ticket-magnet {
+    color: azure;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+
+}
+
+nav ul li a:hover {
+    color: rgb(152,54,245);
+}
+
+nav ul li a {
+    text-decoration: none;
+    /* color: rgb(152, 54, 245); */
+    color: azure;
+    font-size: 17px;
+}
+
+span {
+    color: rgb(152, 54, 245);
+}
+
+.column {
+    float: left;;
+    width: 33.33%;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* .row  .column .the-batman {
+    filter: grayscale(100%);
+    transition: .3s;
+}
+
+.row  .column .the-batman:hover {
+    filter: grayscale(0);
+    transform: scale(2);
+} */
+
